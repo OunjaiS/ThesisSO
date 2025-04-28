@@ -1,0 +1,66 @@
+ASV ANALYSIS DETAILED REPORT
+==================================================
+
+1. EXECUTIVE SUMMARY
+--------------------
+Total ASVs analyzed: 7,656
+Main vs Candidate Ratio: 1954:5702 (25.5%)
+Authentication Rate: 27.7%
+
+
+2. CLASSIFICATION PERFORMANCE
+--------------------
+accuracy: 1.0000
+precision: 1.0000
+recall: 1.0000
+f1: 1.0000
+roc_auc: 1.0000
+pr_auc: 1.0000
+optimal_threshold: 0.9900
+
+3. AUTHENTICATION PERFORMANCE
+--------------------
+accuracy: 0.9980
+precision: 1.0000
+recall: 0.9934
+f1: 0.9967
+roc_auc: 0.9998
+matthews_corrcoef: 0.9953
+f1_threshold: 0.3737
+f1_threshold_score: 0.9978
+ba_threshold: 0.3737
+ba_threshold_score: 0.9978
+
+4. FEATURE IMPORTANCE
+--------------------
+
+Main/Candidate Classification Features:
+log_read: 0.5058
+rank_read: 0.4898
+log_group_size: 0.0043
+group_size_quantile: 0.0001
+
+Authentication Features:
+read_count: 0.4117
+dist_ratio: 0.2270
+nearest_cand_dist: 0.1751
+nearest_main_dist: 0.1095
+total_read: 0.0710
+log_group_size: 0.0056
+
+5. GROUP ANALYSIS
+--------------------
+
+Total Groups: 231
+Average ASVs per Group: 33.1
+Average Main ASV Percentage: 30.1%
+Average Authentication Rate: 32.4%
+
+6. THRESHOLD INFORMATION
+--------------------
+
+Main/Candidate Classification Threshold: 0.9900
+
+Authentication Thresholds:
+Main ASVs: 0.3737
+Candidate ASVs: 0.3737

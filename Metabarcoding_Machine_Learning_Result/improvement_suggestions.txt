@@ -1,0 +1,7 @@
+
+Features:
+- Consider removing low-importance feature: group_size_quantile
+- Consider removing one feature from highly correlated pairs: (log_read, rank_read)
+
+General:
+- Consider normalizing features within groups due to high size variation
